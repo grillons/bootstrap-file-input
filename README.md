@@ -13,5 +13,7 @@ gem "bootstrap-file-input"
 And add `bootstrap-file-input` to your `application.js` :
 
 ```js
+//= require jquery
+//= require bootstrap
 //= require bootstrap-file-input
 ```
