@@ -1,4 +1,3 @@
 Rails.application.routes.draw do
-
-  mount BootstrapFileInput::Engine => "/bootstrap-file-input"
+  root to: "pages#index"
 end
